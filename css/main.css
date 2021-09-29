@@ -29,18 +29,29 @@ section{
       "img-content-1 content-1"
       "title title"
       "img-content-2 content-2"
-      "content-3 img-content-3"
+      "content-3 img-content-3";
 } 
 .img-content-1 {
+
    grid-area: img-content-1;
    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
+   padding: 20px;
+   background: rgba(255,255,255,0.1);
+   overflow: hidden;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 .img-content-1 img{
-    width: 300px;
+    width: 340px;
+    height: 340px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+ 
 }
 .content-1 { 
     grid-area: content-1;
@@ -51,6 +62,7 @@ section{
     padding: 50px;
 }
 .content-1 h2{
+    text-shadow: 10px 10px 8px rgba(0,0,0,0.3);
     color: black;
     font-family: 'Yeseva One', cursive;
     font-weight: 300;
@@ -71,6 +83,7 @@ section{
     font-family: 'Yeseva One', cursive;
     font-size: 50px;
     font-weight: 300;
+    text-shadow: 15px 15px 8px rgba(0,0,0,0.4);
 }
 .img-content-2 {
     grid-area: img-content-2; 
@@ -78,9 +91,14 @@ section{
     justify-content: center;
     align-items: center;
     padding: 50px;
-
 }
 .img-content-2 img{
+    border-radius: 10px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-top: 2px solid rgba(255,255,255,0.5);
+    border-left: 3px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
     width: 500px;
 }
 .img-content-3 {
@@ -91,7 +109,13 @@ section{
     padding: 50px;
 }
 .img-content-3 img{
+    border-radius: 10px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-top: 2px solid rgba(255,255,255,0.5);
+    border-left: 2px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
     width: 500px;
+    border-radius: 10px;
 }
 .content-2 {
     grid-area: content-2;
@@ -107,6 +131,7 @@ section{
     font-weight: 300;
     font-size: 30px;
     margin: 10px;
+    text-shadow: 10px 10px 8px rgba(0,0,0,0.3);
 }
 .content-2 p {
     color: black;
@@ -127,6 +152,7 @@ section{
     font-family: 'Yeseva One', cursive;
     font-weight: 300;
     margin: 10px;
+    text-shadow: 10px 10px 8px rgba(0,0,0,0.3);
 }
 .content-3 p {
     color: black;
@@ -149,11 +175,11 @@ section{
         transform: translateX(-50%);
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
       
     .img-content-1 { 
         margin-top: 50px;
-        padding: 0;
     }
     .content-1 {
         text-align: center;
@@ -174,6 +200,7 @@ section{
     .content-3 {
         text-align: center;
         padding: 20px;
+        margin-bottom: 20px;
     }
 }
 
@@ -210,8 +237,8 @@ section{
     background: rgb(241, 241, 241);
     outline: none;
     padding: 20px 40px;
-    color: #5b6651;
     transition: 0.5s;
+    border-radius: 5px;
 }
 .contact-form-text:focus{
     box-shadow: 0 0 10px 4px #069370;
@@ -229,6 +256,7 @@ textarea.contact-form-text{
     padding: 12px 50px;
     cursor: pointer;
     transition: 0.5s;
+    border-radius: 5px;
 }
 .contact-form-btn:hover{
     background: #069370;

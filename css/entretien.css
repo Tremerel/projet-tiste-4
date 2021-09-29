@@ -11,8 +11,9 @@
 .card-container .container{
     max-width: 1200px;
     height: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .card-container .container a {
     text-decoration: none;
@@ -23,13 +24,13 @@
     width: 200px;
     height: 200px;
     position: relative;
-    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
     border-radius: 10px;
     background: rgba(255,255,255,0.1);
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
     border-top: 1px solid rgba(255,255,255,0.5);
     border-left: 1px solid rgba(255,255,255,0.5);
     backdrop-filter: blur(5px);
@@ -55,6 +56,7 @@
 @media screen and (max-width:700px){
 
     .card-container .container {
+        display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
@@ -82,10 +84,14 @@ section{
     justify-content: center;
     align-items: center;
     padding: 50px;
-
 }
 .img-main img{
     width: 500px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-top: 2px solid rgba(255,255,255,0.5);
+    border-left: 2px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
 }
 .main-content {
     display: flex;
@@ -100,6 +106,7 @@ section{
     font-weight: 300;
     font-size: 30px;
     margin: 10px;
+    text-shadow: 10px 10px 8px rgba(0,0,0,0.3);
 }
 .main-content p {
     color: black;
@@ -150,6 +157,11 @@ section{
      width: 500px;
      height: 400px;
      object-fit: cover;
+     border-radius: 10px;
+     box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+     border-top: 2px solid rgba(255,255,255,0.5);
+     border-left: 2px solid rgba(255,255,255,0.5);
+     backdrop-filter: blur(5px);
 }
 .content-1 { 
     grid-area: content-1;
@@ -157,9 +169,10 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    padding: 50px;
 }
 .content-1 h2{
+    text-shadow: 10px 10px 8px rgba(0,0,0,0.3);
     color: black;
     font-family: 'Yeseva One', cursive;
     font-weight: 300;
@@ -182,6 +195,11 @@ section{
 }
 .img-content-2 img{
     width: 500px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-top: 2px solid rgba(255,255,255,0.5);
+    border-left: 2px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
 }
 .content-2 {
     grid-area: content-2;
@@ -189,7 +207,7 @@ section{
     flex-direction: column;
     justify-content: center;
     position: relative;
-
+    padding: 50px;
 }
 .content-2 h2{
     color: black;
@@ -197,6 +215,7 @@ section{
     font-weight: 300;
     font-size: 30px;
     margin: 10px;
+    text-shadow: 10px 10px 8px rgba(0,0,0,0.3);
 }
 .content-2 p {
     color: black;
@@ -213,11 +232,16 @@ section{
 }
 .img-content-3 img{
     width: 500px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-top: 2px solid rgba(255,255,255,0.5);
+    border-left: 2px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
 }
 .content-3 { 
     grid-area: content-3;
     position: relative;
-
+    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -228,6 +252,7 @@ section{
     font-family: 'Yeseva One', cursive;
     font-weight: 300;
     margin: 10px;
+    text-shadow: 10px 10px 8px rgba(0,0,0,0.3);
 }
 .content-3 p {
     color: black;
@@ -243,11 +268,16 @@ section{
 }
 .img-content-4 img{
     width: 500px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-top: 2px solid rgba(255,255,255,0.5);
+    border-left: 2px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
 }
 .content-4 { 
     grid-area: content-4;
     position: relative;
-
+    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -258,6 +288,7 @@ section{
     font-family: 'Yeseva One', cursive;
     font-weight: 300;
     margin: 10px;
+    text-shadow: 10px 10px 8px rgba(0,0,0,0.3);
 }
 .content-4 p {
     color: black;
