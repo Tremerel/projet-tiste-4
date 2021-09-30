@@ -127,6 +127,14 @@ section{
         padding-bottom: 0px;
     }
 }
+@media screen and (max-width:500px){
+    .img-main img{ 
+        width: 300px;
+    }
+    .main-content{
+        width: 400px;
+    }
+}
 
 /* GRID */
 
