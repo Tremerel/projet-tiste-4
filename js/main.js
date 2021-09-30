@@ -10,12 +10,12 @@ $(document).ready(function(){
 
 var clientView = document.documentElement.clientWidth
 
-if(clientView > 1200){
+if(clientView > 768){
     AOS.init({
         duration: 1200,
         once: true,
     });
-} else if (clientView < 1200) {
+} else if (clientView < 768) {
     AOS.init({
         disable: true,
     });
