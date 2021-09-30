@@ -3,12 +3,13 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(0deg, rgba(6,147,112,1) 0%, rgba(255,255,255,0.35898109243697474) 10%);
+
 }
 
 .container{
     max-width: 1200px;
     padding: 50px;
+    padding-bottom: 0;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-auto-rows: 100px 300px;

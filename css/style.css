@@ -77,14 +77,15 @@ nav ul li.sub-menu:before{
     content: '\f0d7';
     font-family: fontAwesome;
     position: absolute;
-    line-height: 60px;
+    font-size: 1.5em;
+    line-height: 1.5em;
     color: #069370;
     right: 5px;
 }
 nav ul li.active.sub-menu:before{
     content: '\f0d8';
-    line-height: 55px;
-    color: #fff;
+    line-height: 1.5em;
+    color: #069370;
 }
 nav ul li ul{
     position: absolute;
@@ -150,10 +151,18 @@ nav ul li a:active, nav ul li a:hover{
         width: 100%;
         text-align: center;
 
-    }    nav ul li:hover ul{
+    }    
+    nav ul li ul {
+        margin-left: 10%;
+        padding-right: 8%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    nav ul li:hover ul{
         display: none;
         left: 0%;
     }
+
     nav ul li.active ul{
         display: block;
         left: 0%;
@@ -164,6 +173,7 @@ nav ul li a:active, nav ul li a:hover{
     }
     nav.active ul li a {
         margin: 0;
+        margin-left: 10%;
     }
     
     nav.active ul li.active ul {
@@ -177,7 +187,15 @@ nav ul li a:active, nav ul li a:hover{
 
 /* BOUTTON */
 
+.button-container /* only for grid section*/ {
+    height: 150px;
+    background:  linear-gradient(0deg, rgba(6,147,112,1) 0%, rgba(255,255,255,0.35898109243697474) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .button {
+    width: 150px;
     height: 50px;
     background: #fff;
     margin: 50px auto;
@@ -187,12 +205,16 @@ nav ul li a:active, nav ul li a:hover{
     border-top: 2px solid rgba(255,255,255,0.5);
     border-left: 2px solid rgba(255,255,255,0.5);
     backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .button a{
     text-decoration: none;
     color: black;
     font-family: 'Nunito', sans-serif;
     font-size: 1em;
+    font-weight: 600;
 }
 
 /* FOOTER */
