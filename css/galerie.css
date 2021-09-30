@@ -2,6 +2,7 @@ section{
     padding-top: 70px; 
     display: flex;
     justify-content: center;
+    align-items: center;
     background: linear-gradient(0deg, rgba(6,147,112,1) 0%, rgba(255,255,255,0.35898109243697474) 10%);
 }
 

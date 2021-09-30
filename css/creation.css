@@ -3,7 +3,7 @@
 .card-container{
     padding-top: 20px;
     padding-bottom: 20px;
-    background: #069370;
+    background: rgb(238, 255, 209);
     box-shadow: 0px 0px 50px rgba(0,0,0,0.75) inset;
     display: flex;
     justify-content: center;
@@ -17,7 +17,7 @@
 }
 .card-container .container a {
     text-decoration: none;
-    color: #fff;
+    color: black;
 }
 .card-container .container .card{
     margin: 20px;
@@ -69,9 +69,10 @@
 /* CONTENU */
 
 section{
-    
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .first-container{
     margin-top: 90px;
