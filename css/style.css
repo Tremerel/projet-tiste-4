@@ -73,20 +73,7 @@ nav ul li {
     position: relative;
     font-family: 'Nunito', sans-serif;
 }
-nav ul li.sub-menu:before{
-    content: '\f0d7';
-    font-family: fontAwesome;
-    position: absolute;
-    font-size: 1.5em;
-    line-height: 1.5em;
-    color: #069370;
-    right: 5px;
-}
-nav ul li.active.sub-menu:before{
-    content: '\f0d8';
-    line-height: 1.5em;
-    color: #069370;
-}
+
 nav ul li ul{
     position: absolute;
     left: -100%;
@@ -94,6 +81,7 @@ nav ul li ul{
     box-shadow: 0 2px 5px rgba(0,0,0, 0.2);
     display: none;
 }
+
 nav ul li:hover ul{
     display: block;
     left: 0%;
@@ -167,7 +155,20 @@ nav ul li a:active, nav ul li a:hover{
         display: block;
         left: 0%;
     }
-
+    nav ul li.sub-menu:before{
+        content: '\f0d7';
+        font-family: fontAwesome;
+        position: absolute;
+        font-size: 1.5em;
+        line-height: 1.5em;
+        color: #069370;
+        right: 5px;
+    }
+    nav ul li.active.sub-menu:before{
+        content: '\f0d8';
+        line-height: 1.5em;
+        color: #069370;
+    }
     nav.active ul {
         display: block;
     }
