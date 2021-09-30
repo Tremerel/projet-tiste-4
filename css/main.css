@@ -211,6 +211,26 @@ align-items: center;
         margin-bottom: 20px;
     }
 }
+@media screen and (max-width:500px){
+    .img-content-1 img{ 
+        width: 300px;
+    }
+    .content-1{
+        width: 400px;
+    }
+    .img-content-2 img{ 
+        width: 300px;
+    }
+    .content-2{
+        width: 400px;
+    }
+    .img-content-3 img{ 
+        width: 300px;
+    }
+    .content-3{
+        width: 400px;
+    }
+}
 
 /* CONTACT */
 

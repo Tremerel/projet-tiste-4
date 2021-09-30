@@ -336,7 +336,31 @@ section{
         padding: 20px;
         margin-bottom: 50px;
     }
+}
 
-
-
+@media screen and (max-width:500px){
+    .img-content-1 img{ 
+        width: 300px;
+    }
+    .content-1{
+        width: 400px;
+    }
+    .img-content-2 img{ 
+        width: 300px;
+    }
+    .content-2{
+        width: 400px;
+    }
+    .img-content-3 img{ 
+        width: 300px;
+    }
+    .content-3{
+        width: 400px;
+    }
+    .img-content-4 img{ 
+        width: 300px;
+    }
+    .content-4{
+        width: 400px;
+    }
 }
