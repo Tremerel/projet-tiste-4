@@ -135,6 +135,17 @@ section{
         width: 400px;
     }
 }
+@media screen and (max-width:400px){
+    .img-main{
+        padding: 40px;
+    }
+    .img-main img{ 
+        width: 280px;
+    }
+    .main-content{
+        width: 350px;
+    }
+}
 
 /* GRID */
 
@@ -370,5 +381,43 @@ section{
     }
     .content-4{
         width: 400px;
+    }
+}
+@media screen and (max-width:400px){
+    .img-content-1 {
+        padding: 40px;
+    }
+    .img-content-1 img{ 
+        width: 280px;
+    }
+    .content-1{
+        width: 350px;
+    }
+    .img-content-2 {
+        padding: 40px;
+    }
+    .img-content-2 img{ 
+        width: 280px;
+    }
+    .content-2{
+        width: 350px;
+    }
+    .img-content-3 {
+        padding: 40px;
+    }
+    .img-content-3 img{ 
+        width: 280px;
+    }
+    .content-3{
+        width: 350px;
+    }
+    .img-content-4 {
+        padding: 40px;
+    }
+    .img-content-4 img{ 
+        width: 280px;
+    }
+    .content-4{
+        width: 350px;
     }
 }

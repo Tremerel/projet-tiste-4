@@ -231,6 +231,38 @@ align-items: center;
         width: 400px;
     }
 }
+@media screen and (max-width:400px){
+    .img-content-1 {
+        padding: 40px;
+    }
+    .img-content-1 img{ 
+        width: 280px;
+    }
+    .content-1{
+        width: 350px;
+    }
+    .img-content-2 {
+        padding: 40px;
+    }
+    .img-content-2 img{ 
+        width: 280px;
+    }
+    .content-2{
+        width: 350px;
+    }
+    .img-content-3 {
+        padding: 40px;
+    }
+    .img-content-3 img{ 
+        width: 280px;
+    }
+    .content-3{
+        width: 350px;
+    }
+    .img-content-4 {
+        padding: 40px;
+    }
+}
 
 /* CONTACT */
 
