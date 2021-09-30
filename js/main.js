@@ -8,15 +8,21 @@ $(document).ready(function(){
     })
 })
 
-AOS.init({
-    duration: 1200,
-    once: true,
-    disable: 'phone',
-    disable: 'mobile',
-    disable: 'tablet',
-  });
+var clientView = document.documentElement.clientWidth
 
-  VanillaTilt.init(document.querySelectorAll(".card"), {
+if(clientView > 1200){
+    AOS.init({
+        duration: 1200,
+        once: true,
+    });
+} else if (clientView < 1200) {
+    AOS.init({
+        disable: true,
+    });
+}
+
+
+ VanillaTilt.init(document.querySelectorAll(".card"), {
     max: 20,
     speed: 400,
     glare: true,

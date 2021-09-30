@@ -35,7 +35,6 @@
     border-left: 1px solid rgba(255,255,255,0.5);
     backdrop-filter: blur(5px);
 }
-
 .card-container .container .card .card-content{
     padding: 20px;
     text-align: center;
@@ -48,12 +47,14 @@
     color: #fff;
     text-shadow: 5px 5px 10px rgba(0,0,0,0.5);
 }
+
 @media screen and (max-width:1100px){
     .card-container .container .card{
         width: 150px;
         height: 150px;
     }
 }
+
 @media screen and (max-width:700px){
 
     .card-container .container {
@@ -80,7 +81,6 @@ section{
     max-width: 1200px;
     display: inline-flex;
 }
-
 .img-main {
     display: flex;
     justify-content: center;
@@ -115,6 +115,7 @@ section{
     font-weight: 300;
     font-family: 'Nunito', sans-serif;
 }
+
 @media screen and (max-width:1100px){
     .first-container{
         text-align: center;
@@ -127,6 +128,7 @@ section{
         padding-bottom: 0px;
     }
 }
+
 @media screen and (max-width:500px){
     .img-main img{ 
         width: 300px;
@@ -135,6 +137,7 @@ section{
         width: 400px;
     }
 }
+
 @media screen and (max-width:400px){
     .img-main{
         padding: 40px;
@@ -148,7 +151,6 @@ section{
 }
 
 /* GRID */
-
 
 .grid-container {
     max-width: 1200px;
@@ -169,21 +171,20 @@ section{
 .img-content-1 {
     grid-area: img-content-1;
     position: relative;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     padding: 20px;
- }
- 
- .img-content-1 img{
-     width: 500px;
-     height: 400px;
-     object-fit: cover;
-     border-radius: 10px;
-     box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
-     border-top: 2px solid rgba(255,255,255,0.5);
-     border-left: 2px solid rgba(255,255,255,0.5);
-     backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.img-content-1 img{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-top: 2px solid rgba(255,255,255,0.5);
+    border-left: 2px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
 }
 .content-1 { 
     grid-area: content-1;
@@ -207,13 +208,11 @@ section{
     font-family: 'Nunito', sans-serif;
 }
 
-
 .img-content-2 {
     grid-area: img-content-2; 
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .img-content-2 img{
     width: 500px;
@@ -250,7 +249,6 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .img-content-3 img{
     width: 500px;
@@ -286,7 +284,6 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .img-content-4 img{
     width: 500px;
@@ -322,8 +319,7 @@ section{
     .grid-container {
         display: flex;
         flex-direction: column;
-      }
-      
+    }
     .img-content-1 { 
         margin-top: 50px;
         padding: 0;
@@ -385,6 +381,7 @@ section{
         width: 400px;
     }
 }
+
 @media screen and (max-width:400px){
     .img-content-1 {
         padding: 40px;

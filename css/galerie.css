@@ -3,7 +3,6 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .container{
@@ -16,7 +15,6 @@ section{
     grid-gap: 10px;
     grid-auto-flow: dense;
 }
-
 .galerie-item {
     width: 100%;
     height: 100%;
@@ -38,7 +36,6 @@ section{
 .galerie-item:hover .item img{
     transform: scale(1.5);
 }
-
 
 .w-1{
     grid-column: span 1;

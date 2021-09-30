@@ -4,12 +4,11 @@
     box-sizing: border-box;
     font-family: sans-serif;
     scroll-behavior: smooth;
-
 }
 body{
     width: 100%;
     background: #fff;
-        overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 
@@ -81,12 +80,10 @@ nav ul li ul{
     box-shadow: 0 2px 5px rgba(0,0,0, 0.2);
     display: none;
 }
-
 nav ul li:hover ul{
     display: block;
     left: 0%;
 }
-
 nav ul li ul li{
     display: block;
     width: 200px;
@@ -104,6 +101,7 @@ nav ul li a:active, nav ul li a:hover{
     border-radius: 5px;
     transition: 0.5s;
 }
+
 @media screen and (max-width:1200px) {
     header{
         margin: 20px auto;
@@ -176,7 +174,6 @@ nav ul li a:active, nav ul li a:hover{
         margin: 0;
         margin-left: 10%;
     }
-    
     nav.active ul li.active ul {
         position: relative;
         color: #9df3dd;
@@ -262,6 +259,7 @@ footer p{
     margin: 0.5em 0;
     font-size: 1rem;
 }
+
 @media screen and (max-width:872px){
     footer{
         padding: 1%;
@@ -273,6 +271,7 @@ footer p{
         padding: 10px;
     }
 }
+
 @media screen and (max-width:872px){
     footer{
         padding: 0.5%;
