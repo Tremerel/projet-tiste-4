@@ -11,6 +11,9 @@ $(document).ready(function(){
 AOS.init({
     duration: 1200,
     once: true,
+    disable: 'phone',
+    disable: 'mobile',
+    disable: 'tablet',
   });
 
   VanillaTilt.init(document.querySelectorAll(".card"), {
