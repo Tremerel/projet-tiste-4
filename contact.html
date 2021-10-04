@@ -23,6 +23,7 @@
         <script src="js/vanilla-tilt.js" defer></script>
         <script src="js/slider.js" defer></script>
         <script src="js/main.js" defer></script>
+        <script src="js/form.js" defer></script>
     </head>
 <body>
     <header class="header">
@@ -76,9 +77,10 @@
 <div class="contact-box">
         <div class="contact">
 
-        <form action="" class="contact-form">
-            <input type="text" name="nom" class="contact-form-text" placeholder="Votre nom...">
-            <input type="email" name="email" class="contact-form-text" placeholder="Votre Email...">
+        <form method="POST" onsubmit="compare(event)" class="contact-form">
+            <span></span>
+            <input type="email" name="email" id="email" class="contact-form-text" placeholder="Votre Email...">
+            <input type="email" name="email-conf" id="confirmation" class="contact-form-text" placeholder="Votre Confirmation d'Email...">
             <input type="text" name="phone" class="contact-form-text" placeholder="Votre numéro de téléphone...">
             <textarea class="contact-form-text" name="text" placeholder="Description..."></textarea>
             <input type="submit" class="contact-form-btn" value="Envoyer">
